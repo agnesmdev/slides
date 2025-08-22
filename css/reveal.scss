@@ -652,6 +652,28 @@ $controlsArrowAngleActive: 36deg;
 	perspective: 600px;
 }
 
+.reveal .slides>section input[type="radio"] {
+	display: none;
+}
+
+.reveal .slides>section label {
+	cursor: pointer;
+	font-size: 100px;
+	border-radius: 50%;
+	padding: 10px 25px;
+	background-color: rgb(255, 255, 255, 0.25);
+
+	&:hover {
+		background-color: rgb(255, 255, 255, 0.5);
+	}
+}
+
+.langchooser {
+	margin-top: 50px;
+	display: inline-flex;
+	gap: 100px;
+}
+
 .reveal .slides>section,
 .reveal .slides>section>section {
 	display: none;

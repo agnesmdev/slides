@@ -1,0 +1,215 @@
+{
+    "slides": {
+        "intro": {
+            "title1": "Ivre et au chômage,",
+            "title2": "elle décide d'écrire un livre sur le Scala en plein Covid"
+        },
+        "context-title": {
+            "title": "Comment ça écrire un livre ?"
+        },
+        "global": {
+            "title": "Un peu de contexte",
+            "end-of-contract-date": "15 janvier 2020",
+            "end-of-contract-title": "Fin de contrat",
+            "eni-order-date": "2 avril 2020",
+            "eni-order-title": "Commande de ENI",
+            "book-end-date": "21 septembre 2021",
+            "book-end-title": "Fin du manuscrit",
+            "book-release-date": "14 janvier 2022",
+            "book-release-title": "Sortie du manuscrit"
+        },
+        "why": {
+            "title": "Pourquoi ?!"
+        },
+        "contract-title": {
+            "title": "Contrat avec ENI"
+        },
+        "offer": {
+            "title": "Offre d'ENI"
+        },
+        "trial": {
+            "title": "L'essai d'écriture",
+            "trial-step-1": "Table des matières",
+            "trial-step-1-pages": "(2-4 pages)",
+            "trial-step-2": "Chapitre test",
+            "trial-step-2-pages": "(10-20 pages)"
+        },
+        "terms": {
+            "title": "Conditions",
+            "subject": "Sujet",
+            "level": "Niveau",
+            "level-value": "(Intermédiaire/Expert)",
+            "date": "Date de livraison",
+            "date-value": "(2 novembre 2020)",
+            "total": "Nombre de caractères"
+        },
+        "money": {
+            "title": "Rémunération",
+            "cash": "Paiement",
+            "cash-period": "(à la livraison puis à la sortie)",
+            "royalties": "Royalties",
+            "royalties-period": "(de façon trimestrielle)",
+            "translation": "Paiement à la traduction"
+        },
+        "expectations": {
+            "title": "Attendus",
+            "files": "Fichiers Word",
+            "quiz": "Quiz de fin de chapitre",
+            "quiz-value": "(7-10 questions)",
+            "exercises": "Exercices",
+            "indices": "Index",
+            "snippet": "Extraits de code"
+        },
+        "team": {
+            "title": "L'équipe éditoriale",
+            "assistant": "Assistante éditoriale",
+            "assistant-name": "Madame M. et Y.",
+            "chief": "Responsable éditoriale",
+            "chief-name": "Madame E.",
+            "advisor": "Conseiller technique",
+            "advisor-name": "Monsieur J.",
+            "marketing": "Chargée de marketing",
+            "marketing-name": "Madame K."
+        },
+        "characters-title": {
+            "title": "Combien ça fait 400 000 caractères ?"
+        },
+        "lipsum": {
+            "words": "103 mots",
+            "characters": "693 caractères"
+        },
+        "lipsum-5": {
+            "words": "584 mots",
+            "characters": "4031 caractères"
+        },
+        "page": {
+            "words": "232 mots",
+            "characters": "1467 caractères"
+        },
+        "first-step-title": {
+            "title": "Maximum<br>determination"
+        },
+        "daily": {
+            "daily": "Organisation d'une journée",
+            "writing": "Écriture en journée",
+            "report": "Compte-rendu à l'assistante",
+            "report-value": "(toutes les 2 semaines)",
+            "search": "Recherche de mission",
+            "search-value": "(tentative de freelance)",
+            "networking": "Réseautage"
+        },
+        "plan": {
+            "title": "Plan",
+            "step-1": "1 - Introduction",
+            "step-2": "2 - Bases du langage",
+            "step-3": "3 - Programmation fonctionnelle",
+            "step-4": "4 - sbt",
+            "example": "️️Code d'exemple",
+            "cheat-sheet": "Cheat-sheet",
+            "success": "Chapitres 2 &amp; 3 terminés<br>en 2 mois !"
+        },
+        "ceiling": {
+            "title": "100 000 caractères",
+            "half-content": "50 % du contenu prévu",
+            "quarter-total": "caractères restants"
+        },
+        "thanks": {
+            "advisor": "(Conseiller technique)",
+            "advisor-name": "Monsieur J."
+        },
+        "more-explaining": {
+            "title": "Plus expliquer certains concepts"
+        },
+        "more-examples": {
+            "title": "Illustrer ses propos avec des exemples<br>plusieurs cas de figure"
+        },
+        "more-repeats": {
+            "title": "Ne pas hésiter à faire des rappels"
+        },
+        "more-whitespace": {
+            "title": "Les espaces entrent dans le décompte",
+            "without": "198 sans les espaces",
+            "with": "237 avec les espaces"
+        },
+        "pain": {
+            "1": "Est-ce que ça vaut la peine ?",
+            "2": "C'est nul ce que j'écris",
+            "3": "Ça avance pas",
+            "4": "De toute façon ça va pas plaire",
+            "5": "Je suis qui pour parler de ça ?"
+        },
+        "from": {
+            "full": "Ivresse de confiance",
+            "impostor": "Syndrôme de l'imposteur"
+        },
+        "third-title": {
+            "title": "Les reports"
+        },
+        "delivery-date": {
+            "title": "Date de livraison",
+            "date-1": "1er novembre 2020",
+            "date-1-label": "signature du contrat initial",
+            "date-2": "1er janvier 2021",
+            "date-3": "31 mai 2021",
+            "date-3-label": "signature d'un nouveau contrat",
+            "date-4": "fin juillet",
+            "date-5": "1er septembre",
+            "date-6": "30 septembre 2021",
+            "date-6-label": "11 mois après la date initiale"
+        },
+        "special-thanks": {
+            "1": "Merci à mon chéri",
+            "2": "Merci à ma mère",
+            "3": "Merci à mon chat"
+        },
+        "final-date": {
+            "value": "21 septembre 2021"
+        },
+        "fourth-step-title": {
+            "title": "Relecture<br>et<br>échanges"
+        },
+        "components": {
+            "title": "Titre",
+            "summary": "Résumé",
+            "cover-page": "1ère de couverture",
+            "spine": "Tranche",
+            "back-cover": "4ème de couverture",
+            "bio": "Biographie"
+        },
+        "advertisement": {
+            "title": "Début de publicité",
+            "eni": "Page du livre sur le site d'ENI",
+            "social": "Post sur les réseaux sociaux",
+            "experts": "Rassemblement d'experts"
+        },
+        "proofreading": {
+            "1": "9 décembre 2021",
+            "2": "16 décembre 2021",
+            "3": "28 décembre 2021",
+            "title": "Relectures"
+        },
+        "index-entries": {
+            "title": "Entrées d'index"
+        },
+        "fifth-step-title": {
+            "title": "Sortie<br>du<br>livre"
+        },
+        "experts": {
+            "title": "Les exemplaires experts"
+        },
+        "shop": {
+            "fnac": "Disponible à la Fnac<br>et<br>dans toutes les grandes librairies"
+        },
+        "sales": {
+            "title": "Comment ça se vend ?",
+            "total": "167 livres vendus - 1 en dématérialisé",
+            "money": "... 13€ en 2023/2024"
+        },
+        "end": {
+            "thanks": "Merci &lt;3"
+        },
+        "next": {
+            "title": "Et maintenant ?"
+        }
+    }
+}

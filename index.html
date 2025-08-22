@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Ivre et au chômage, elle décide d'écrire un livre sur le Scala en plein Covid</title>
+		<title data-i18n="title">Ivre et au chômage, elle décide d'écrire un livre sur le Scala en plein Covid</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
@@ -21,11 +21,16 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-background="assets/drink-background.jpeg">
+				<section data-background="assets/drink-background.jpeg" id="intro">
 					<h1>Agnès Cardin</h1>
 					<img src="assets/scala-logo.png" alt="scala-logo" class="icon">
-					<h2>Ivre et au chômage,</h2>
-					<h3>elle décide d'écrire un livre sur le Scala en plein Covid</h3>
+					<h2 data-i18n="title1">Ivre et au chômage,</h2>
+					<h3 data-i18n="title2">elle décide d'écrire un livre sur le Scala en plein Covid</h3>
+
+					<div class="langchooser flags" dir="ltr">
+						<label><input type="radio" name="langradios" value="fr" checked>🇫🇷</label>
+						<label><input type="radio" name="langradios" value="en">🇺🇸</label>
+					</div>
 				</section>
 				<!-- Introduction JUG Summer Camp
 				<section data-background="assets/jug_summer_camp.png">
@@ -39,46 +44,46 @@
 					<a href="https://github.com/agnesmdev/slides"><h4 style="color: var(--r-link-color)">https://github.com/agnesmdev/slides</h4></a>
                 </section>
 				<!-- Contexte -->
-				<section>
-					<section data-background="assets/book-background.jpeg">
-						<h1 class="shadow-title">Comment ça écrire un livre ?</h1>
+				<section id="context">
+					<section data-background="assets/book-background.jpeg" id="context-title">
+						<h1 class="shadow-title" data-i18n="title">Comment ça écrire un livre ?</h1>
 					</section>
-					<section>
-						<h1>Un peu de contexte</h1>
+					<section id="global">
+						<h1 data-i18n="title">Un peu de contexte</h1>
 						<div style="display: flex; flex-direction: row; justify-content: space-around; margin-top: 5%">
 							<div class="fragment">
 								<img src="assets/pole-emploi-logo.jpeg" alt="pole-emploi-logo" class="icon">
-								<h4>15 janvier 2020</h4>
-								<h4>Fin de contrat</h4>
+								<h4 data-i18n="end-of-contract-date">15 janvier 2020</h4>
+								<h4 data-i18n="end-of-contract-title">Fin de contrat</h4>
 							</div>
 							<div class="fragment preload">
 								<img src="assets/eni-logo.png" alt="eni-logo" class="icon">
-								<h4>2 avril 2020</h4>
-								<h4>Commande de ENI</h4>
+								<h4 data-i18n="eni-order-date">2 avril 2020</h4>
+								<h4 data-i18n="eni-order-title">Commande de ENI</h4>
 							</div>
 							<div class="fragment preload">
 								<img src="assets/livre-logo.jpeg" alt="livre-logo" class="icon">
-								<h4>21 septembre 2021</h4>
-								<h4>Fin du manuscrit</h4>
+								<h4 data-i18n="book-end-date">21 septembre 2021</h4>
+								<h4 data-i18n="book-end-title">Fin du manuscrit</h4>
 							</div>
 							<div class="fragment preload">
 								<img src="assets/fnac-logo.svg" alt="fnac-logo" class="icon white">
-								<h4>14 janvier 2022</h4>
-								<h4>Sortie du manuscrit</h4>
+								<h4 data-i18n="book-release-date">14 janvier 2022</h4>
+								<h4 data-i18n="book-release-title">Sortie du manuscrit</h4>
 							</div>
 						</div>
 					</section>
-					<section data-background="assets/question-background.jpeg">
-						<h1 class="shadow-title">Pourquoi ?!</h1>
+					<section data-background="assets/question-background.jpeg" id="why">
+						<h1 class="shadow-title" data-i18n="title">Pourquoi ?!</h1>
 					</section>
 				</section>
 				<!-- Contrat ENI -->
-				<section>
-					<section data-background="assets/contract-background.jpeg">
-						<h1 class="shadow-title">Contrat avec ENI</h1>
+				<section id="contract">
+					<section data-background="assets/contract-background.jpeg" id="contract-title">
+						<h1 class="shadow-title" data-i18n="title">Contrat avec ENI</h1>
 					</section>
-					<section>
-						<h1>Offre d'ENI</h1>
+					<section id="offer">
+						<h1 data-i18n="title">Offre d'ENI</h1>
 						<img src="assets/freelance-info-logo.png" alt="freelance-info-logo" class="fragment fade-up logo" data-fragment-index="1">
 						<div style="display: flex; flex-direction: row; justify-content: space-evenly">
 							<h1 class="fragment" data-fragment-index="2">
@@ -87,38 +92,66 @@
 							<h1 class="fragment fade-in-then-semi-out" data-fragment-index="3">🎬</h1>
 						</div>
 					</section>
-					<section>
-						<h1>L'essai d'écriture</h1>
+					<section id="trial">
+						<h1 data-i18n="title">L'essai d'écriture</h1>
 						<div class="enumeration">
-							<p>🔖 Table des matières <span style="font-style: italic">(2-4 pages)</span></p>
-							<p>📝 Chapitre test <span style="font-style: italic">(10-20 pages)</span></p>
+							<p>🔖
+                                <span data-i18n="trial-step-1">Table des matières</span>
+								<span style="font-style: italic" data-i18n="trial-step-1-pages">(2-4 pages)</span>
+							</p>
+							<p>📝
+                                <span data-i18n="trial-step-2">Chapitre test</span>
+								<span style="font-style: italic" data-i18n="trial-step-2-pages">(10-20 pages)</span>
+							</p>
 						</div>
 					</section>
-					<section>
-						<h1>Conditions</h1>
+					<section id="terms">
+						<h1 data-i18n="title">Conditions</h1>
 						<div class="enumeration">
-							<p>💬 Sujet <span style="font-style: italic">(Scala)</span></p>
-							<p>🤔 Niveau <span style="font-style: italic">(Intermédiaire/Expert)</span></p>
-							<p>📅 Date de livraison <span style="font-style: italic">(2 novembre 2020)</span></p>
-							<p>✅ Nombre de caractères <span style="font-style: italic">(400 000)</span></p>
+							<p>💬
+                                <span data-i18n="subject">Sujet</span>
+								<span style="font-style: italic">(Scala)</span>
+							</p>
+							<p>🤔
+                                <span data-i18n="level">Niveau</span>
+								<span style="font-style: italic" data-i18n="level-value">(Intermédiaire/Expert)</span>
+							</p>
+							<p>📅
+                                <span data-i18n="date">Date de livraison</span>
+								<span style="font-style: italic" data-i18n="date-value">(2 novembre 2020)</span>
+							</p>
+							<p>✅
+                                <span data-i18n="total">Nombre de caractères</span>
+								<span style="font-style: italic">(400 000)</span>
+							</p>
 						</div>
 					</section>
-					<section>
-						<h1>Rémunération</h1>
+					<section id="money">
+						<h1 data-i18n="title">Rémunération</h1>
 						<div class="enumeration">
-							<p>💶 Paiement <span style="font-style: italic">(à la livraison puis à la sortie)</span></p>
-							<p>💰 Royalties <span style="font-style: italic">(de façon trimestrielle)</span></p>
-							<p>🇪🇸 Paiement à la traduction</p>
+							<p>💶
+                                <span data-i18n="cash">Paiement</span>
+								<span style="font-style: italic" data-i18n="cash-period">(à la livraison puis à la sortie)</span>
+							</p>
+							<p>💰
+                                <span data-i18n="royalties">Royalties</span>
+								<span style="font-style: italic" data-i18n="royalties-period">(de façon trimestrielle)</span>
+							</p>
+                            <p>🇪🇸 <span data-i18n="translation">Paiement à la traduction</span></p>
 						</div>
 					</section>
-					<section>
-						<h1>Attendus</h1>
+					<section id="expectations">
+						<h1 data-i18n="title">Attendus</h1>
 						<div class="enumeration">
-							<p>📝 Fichiers Word</p>
-							<p>❓ Quiz de fin de chapitre <span style="font-style: italic">(7-10 questions)</span></p>
-							<p>✍️ Exercices</p>
-							<p>☝️️ Index</p>
-							<p>🔗️️ Extraits de code
+                            <p>📝 <span data-i18n="files">Fichiers Word</span></p>
+							<p>❓
+                                <span data-i18n="quiz">Quiz de fin de chapitre</span>
+								<span style="font-style: italic" data-i18n="quiz-value">(7-10 questions)</span>
+							</p>
+                            <p>✍️ <span data-i18n="exercises">Exercices</span></p>
+                            <p>☝️ <span data-i18n="indices">Index</span></p>
+							<p>🔗️
+                                <span data-i18n="snippet">Extraits de code</span>
 								<span style="font-style: italic">
 									<a href="https://github.com/agnesmdev/scala-book-code" target="_blank">
 										(Github)
@@ -127,48 +160,49 @@
 							</p>
 						</div>
 					</section>
-					<section>
-						<h1>L'équipe éditoriale</h1>
+					<section id="team">
+						<h1 data-i18n="title">L'équipe éditoriale</h1>
 						<div style="display: flex; flex-direction: row; justify-content: space-around">
 							<div class="fragment">
 								<img src="assets/assistant-icon.png" alt="assistant-icon" class="persona">
-								<h6>Assistante éditoriale</h6>
-								<p><small>Madame M. et Y.</small></p>
+								<h6 data-i18n="assistant">Assistante éditoriale</h6>
+								<p><small data-i18n="assistant-name">Madame M. et Y.</small></p>
 							</div>
 							<div class="fragment preload">
 								<img src="assets/manager-icon.png" alt="manager-icon" class="persona">
-								<h6>Responsable éditoriale</h6>
-								<p><small>Madame E.</small></p>
+								<h6 data-i18n="chief">Responsable éditoriale</h6>
+								<p><small data-i18n="chief-name">Madame E.</small></p>
 							</div>
 						</div>
 						<div style="display: flex; flex-direction: row; justify-content: space-around">
 							<div class="fragment preload">
 								<img src="assets/counselor-icon.png" alt="counselor-icon" class="persona">
-								<h6>Conseiller technique</h6>
-								<p><small>Monsieur J.</small></p>
+								<h6 data-i18n="advisor">Conseiller technique</h6>
+								<p><small data-i18n="advisor-name">Monsieur J.</small></p>
 							</div>
 							<div class="fragment preload">
 								<img src="assets/marketing-icon.png" alt="marketing-icon" class="persona">
-								<h6>Chargée de marketing</h6>
-								<p><small>Madame K.</small></p>
+								<h6 data-i18n="marketing">Chargée de marketing</h6>
+								<p><small data-i18n="marketing-name">Madame K.</small></p>
 							</div>
 						</div>
 					</section>
 				</section>
 				<!-- 400K caractères -->
-				<section>
-					<section data-background="assets/thinking-face.jpeg">
-						<h1 class="shadow-title">Combien ça fait 400 000 caractères ?</h1>
+				<section id="characters">
+					<section data-background="assets/thinking-face.jpeg" id="characters-title">
+						<h1 class="shadow-title" data-i18n="title">Combien ça fait 400 000 caractères ?</h1>
 					</section>
-					<section>
+					<section id="lipsum">
 						<div style="display: flex; flex-direction: row; justify-content: space-around">
 							<small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at semper lacus. Integer sem mauris, convallis sit amet lorem nec, mollis rhoncus eros. Suspendisse varius dictum eros. Pellentesque non lacinia ligula, a egestas nisi. Vivamus nec ante dapibus, vulputate mauris vitae, semper dolor. Nullam a enim a tortor ullamcorper viverra non in ex. Vestibulum leo nisi, imperdiet ut eros sed, sagittis fringilla sapien. Vestibulum elementum dolor et dolor dictum feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi massa ligula, sollicitudin eu ex et, egestas vulputate velit. Maecenas nisi dui, viverra in nulla non, lobortis pharetra quam. Nullam vel eros ultrices, pretium justo sed, malesuada quam. Integer ut ipsum cursus, rhoncus urna sit amet, tincidunt nibh.</small>
 						</div>
 						<h6 class="fragment" style="margin-top: 2%">
-							103 mots - <span class="fragment">693 caractères</span>
+                            <span data-i18n="words">103 mots</span> -
+                            <span class="fragment" data-i18n="characters">693 caractères</span>
 						</h6>
 					</section>
-					<section>
+					<section id="lipsum-5">
 						<div style="display: flex; flex-direction: row; justify-content: space-around">
 							<small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at semper lacus. Integer sem mauris, convallis sit amet lorem nec, mollis rhoncus eros. Suspendisse varius dictum eros. Pellentesque non lacinia ligula, a egestas nisi. Vivamus nec ante dapibus, vulputate mauris vitae, semper dolor. Nullam a enim a tortor ullamcorper viverra non in ex. Vestibulum leo nisi, imperdiet ut eros sed, sagittis fringilla sapien. Vestibulum elementum dolor et dolor dictum feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi massa ligula, sollicitudin eu ex et, egestas vulputate velit. Maecenas nisi dui, viverra in nulla non, lobortis pharetra quam. Nullam vel eros ultrices, pretium justo sed, malesuada quam. Integer ut ipsum cursus, rhoncus urna sit amet, tincidunt nibh.
 							<br><br>Aenean nec leo facilisis, scelerisque metus eget, rhoncus magna. Morbi ac sem ut urna ultrices dictum non sed leo. Sed vitae ullamcorper nunc, at ultricies turpis. Maecenas magna quam, consectetur quis purus a, varius consectetur magna. Mauris condimentum lectus ac tincidunt tincidunt. Nullam vehicula ultrices magna eu fermentum. Curabitur placerat sem ultricies scelerisque feugiat. Phasellus dui nibh, volutpat eget viverra sit amet, blandit et neque. Pellentesque pretium quam non purus porttitor elementum. Interdum et malesuada fames ac ante ipsum primis in faucibus. In finibus nec augue ac condimentum. Aliquam pretium hendrerit magna non laoreet. Quisque sit amet imperdiet ipsum. Cras enim lectus, aliquam id vulputate in, ullamcorper non ipsum. Nunc ut purus volutpat mauris ullamcorper rhoncus.
@@ -177,79 +211,88 @@
 							<br><br>Nulla interdum justo a ullamcorper bibendum. Curabitur ex justo, euismod quis finibus sed, convallis convallis lorem. Maecenas sit amet justo ante. Nam ut magna et tortor malesuada bibendum nec ut lorem. Maecenas ac mi lorem. Fusce id semper magna. Sed cursus dui vitae eros vestibulum, ullamcorper consectetur magna efficitur. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vestibulum facilisis iaculis. Sed fermentum turpis quis eros elementum pretium. Quisque elementum eu justo eget congue. Sed vel lorem ante. Fusce tincidunt rhoncus nisl, a bibendum nulla eleifend hendrerit. Cras et ipsum gravida, congue orci et, accumsan tortor. Etiam vel ante vitae est vulputate pretium. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</small>
 						</div>
 						<h6 class="fragment" style="margin-top: 2%">
-							584 mots - <span class="fragment">4031 caractères</span>
+                            <span data-i18n="words">584 mots</span> -
+                            <span class="fragment" data-i18n="characters">4031 caractères</span>
 						</h6>
 					</section>
-					<section>
+					<section id="page">
 						<img style="max-height: 80vh; margin: 0" src="assets/exemple-page-livre.png" alt="exemple-page-livre"/>
 						<h6 class="fragment" style="margin-top: 2%">
-							232 mots - <span class="fragment">1467 caractères</span>
+                            <span data-i18n="words">232 mots</span> -
+                            <span class="fragment" data-i18n="characters">1467 caractères</span>
 						</h6>
 					</section>
 				</section>
 				<!-- Étape 1 : Maximum determination -->
-				<section>
-					<section data-background="assets/determination-background.jpeg">
-						<h1 class="shadow-title">Maximum<br>determination</h1>
+				<section id="first-step">
+					<section data-background="assets/determination-background.jpeg" id="first-step-title">
+						<h1 class="shadow-title" data-i18n="title">Maximum<br>determination</h1>
 					</section>
-					<section>
-						<h1>Organisation d'une journée</h1>
+					<section id="daily">
+						<h1 data-i18n="daily">Organisation d'une journée</h1>
 						<div class="enumeration">
-							<p>🖊️ Écriture en journée</p>
-							<p>📅 Compte-rendu à l'assistante <span style="font-style: italic">(toutes les 2 semaines)</span></p>
-							<p>🔍 Recherche de mission <span style="font-style: italic">(tentative de freelance)</span></p>
-							<p>💬 Réseautage</p>
+                            <p>🖊️<span data-i18n="writing">Écriture en journée</span></p>
+							<p>📅
+                                <span data-i18n="report">Compte-rendu à l'assistante</span>
+								<span style="font-style: italic" data-i18n="report-value">(toutes les 2 semaines)</span>
+							</p>
+							<p>🔍
+                                <span data-i18n="search">Recherche de mission</span>
+								<span style="font-style: italic" data-i18n="search-value">(tentative de freelance)</span>
+							</p>
+                            <p>💬 <span data-i18n="networking">Réseautage</span></p>
 						</div>
 					</section>
-					<section>
-						<h1>Plan</h1>
+					<section id="plan">
+						<h1 data-i18n="title">Plan</h1>
                         <div class="enumeration">
-                            <p>1 - Introduction</p>
-							<p>2 - Bases du langage</p>
-							<p>3 - Programmation fonctionnelle</p>
-							<p>4 - sbt</p>
-							<p>✍️️️ Code d'exemple</p>
-							<p>💬 Cheat-sheet</p>
-							<h2 class="fragment">Chapitres 2 & 3 terminés<br>en 2 mois !</h2>
+                            <p data-i18n="step-1">1 - Introduction</p>
+							<p data-i18n="step-2">2 - Bases du langage</p>
+							<p data-i18n="step-3">3 - Programmation fonctionnelle</p>
+							<p data-i18n="step-4">4 - sbt</p>
+                            <p>✍️ <span data-i18n="example">️️Code d'exemple</span></p>
+                            <p>💬 <span data-i18n="cheat-sheet">Cheat-sheet</span></p>
+							<h2 class="fragment" data-i18n="success">Chapitres 2 & 3 terminés<br>en 2 mois !</h2>
                         </div>
 					</section>
                     <section data-background="assets/question-background.jpeg">
                     </section>
-                    <section>
-                        <h2 class="fragment preload" data-fragment-index="1">100 000 caractères</h2>
+                    <section id="ceiling">
+                        <h2 class="fragment preload" data-fragment-index="1" data-i18n="title">100 000 caractères</h2>
                         <h2 class="fragment fade-right" data-fragment-index="2">
-							<span class="fragment highlight-blue" data-fragment-index="4">50 % du contenu prévu</span>
+							<span class="fragment highlight-blue" data-fragment-index="4" data-i18n="half-content">50 % du contenu prévu</span>
 						</h2>
                         <h1 class="fragment" data-fragment-index="3">
-							<span class="fragment highlight-red" data-fragment-index="4">300 000</span> caractères restants
+							<span class="fragment highlight-red" data-fragment-index="4">300 000</span>
+                            <span data-i18n="quarter-total">caractères restants</span>
 						</h1>
                     </section>
 				</section>
 				<!-- Étape 2 : Mmmmh 400K ça fait beaucoup en fait -->
-                <section>
+                <section id="second-step">
                     <section data-background="assets/tap-background.jpeg">
-                        <h1 class="shadow-title">From 100K<br>to 200K</h1>
+                        <h1 class="shadow-title" data-i18n="title">From 100K<br>to 200K</h1>
                     </section>
-					<section data-background="assets/thank-you-background.jpeg" style="height: 100%;">
+					<section data-background="assets/thank-you-background.jpeg" style="height: 100%;" id="thanks">
 						<div style="height: 100%; display: flex; flex-direction: column-reverse">
-							<h6 class="shadow-title">(Conseiller technique)</h6>
-							<h1>Monsieur J.</h1>
+							<h6 class="shadow-title" data-i18n="advisor">(Conseiller technique)</h6>
+							<h1 data-i18n="advisor-name">Monsieur J.</h1>
 						</div>
 					</section>
-					<section>
-						<h1>Plus expliquer certains concepts</h1>
+					<section id="more-explaining">
+						<h1 data-i18n="title">Plus expliquer certains concepts</h1>
 						<img src="assets/exemple-explication.png" alt="exemple-explication-filter"/>
 					</section>
-					<section>
-						<h1>Illustrer ses propos avec des exemples<br>plusieurs cas de figure</h1>
+					<section id="more-examples">
+						<h1 data-i18n="title">Illustrer ses propos avec des exemples<br>plusieurs cas de figure</h1>
 						<img src="assets/exemple-plusieurs-exemples.png" alt="exemple-find-exemples"/>
 					</section>
-					<section>
-						<h1>Ne pas hésiter à faire des rappels</h1>
+					<section id="more-repeats">
+						<h1 data-i18n="title">Ne pas hésiter à faire des rappels</h1>
 						<img src="assets/exemple-rappel.png" alt="exemple-rappel-variable-immuable"/>
 					</section>
-					<section>
-						<h1>Les espaces entrent dans le décompte</h1>
+					<section id="more-whitespace">
+						<h1 data-i18n="title">Les espaces entrent dans le décompte</h1>
 						<pre>
 							<code data-trim data-noescape>
 							sealed trait Bouteille extends Produit {
@@ -262,83 +305,85 @@
 							}
 							</code>
 						</pre>
-						<p class="fragment">198 sans les espaces</p>
-						<p class="fragment">237 avec les espaces</p>
+						<p class="fragment" data-i18n="without">198 sans les espaces</p>
+						<p class="fragment" data-i18n="with">237 avec les espaces</p>
 					</section>
-					<section data-background="assets/depression-background.jpeg" style="height: 100%; width: 100%">
-						<p class="fragment fade-in-then-semi-out" style="font-size: 45px; transform: rotate(-20deg); position: absolute; left: 10%; top: 10%">Est-ce que ça vaut la peine ?</p>
-						<p class="fragment fade-in-then-semi-out" style="font-size: 45px; transform: rotate(20deg); position: absolute; right: 15%; top: 7%">C'est nul ce que j'écris</p>
-						<p class="fragment fade-in-then-semi-out" style="font-size: 45px; transform: rotate(-10deg); position: absolute; left: 10%; top: 45%">Ça avance pas</p>
-						<p class="fragment fade-in-then-semi-out" style="font-size: 45px; transform: rotate(30deg); position: absolute; right: 5%; top: 50%">De toute façon ça va pas plaire</p>
-						<p class="fragment" style="font-size: 45px; font-weight: bold; position: absolute; bottom: 5%; right: 25%; left: 25%">Je suis qui pour parler de ça ?</p>
+					<section data-background="assets/depression-background.jpeg" style="height: 100%; width: 100%" id="pain">
+						<p class="fragment fade-in-then-semi-out" style="font-size: 45px; transform: rotate(-20deg); position: absolute; left: 10%; top: 10%" data-i18n="1">Est-ce que ça vaut la peine ?</p>
+						<p class="fragment fade-in-then-semi-out" style="font-size: 45px; transform: rotate(20deg); position: absolute; right: 15%; top: 7%" data-i18n="2">C'est nul ce que j'écris</p>
+						<p class="fragment fade-in-then-semi-out" style="font-size: 45px; transform: rotate(-10deg); position: absolute; left: 10%; top: 45%" data-i18n="3">Ça avance pas</p>
+						<p class="fragment fade-in-then-semi-out" style="font-size: 45px; transform: rotate(30deg); position: absolute; right: 5%; top: 50%" data-i18n="4">De toute façon ça va pas plaire</p>
+						<p class="fragment" style="font-size: 45px; font-weight: bold; position: absolute; bottom: 5%; right: 25%; left: 25%" data-i18n="5">Je suis qui pour parler de ça ?</p>
 					</section>
-					<section>
-						<h3 class="fragment shrink" data-fragment-index="1">Ivresse de confiance</h3>
-						<h1 class="fragment" data-fragment-index="1"><span class="fragment highlight-blue" data-fragment-index="1">Syndrôme de l'imposteur</span></h1>
+					<section id="from">
+						<h3 class="fragment shrink" data-fragment-index="1" data-i18n="full">Ivresse de confiance</h3>
+						<h1 class="fragment" data-fragment-index="1">
+							<span class="fragment highlight-blue" data-fragment-index="1" data-i18n="impostor">Syndrôme de l'imposteur</span>
+						</h1>
 					</section>
                 </section>
 				<!-- Étape 3 : Reports -->
-				<section>
-					<section darta-background="assets/calendar-background.jpeg">
-						<h1 class="shadow-title">Les reports</h1>
+				<section id="third-step">
+					<section data-background="assets/calendar-background.jpeg" id="third-title">
+						<h1 class="shadow-title" data-i18n="title">Les reports</h1>
 					</section>
-					<section>
-						<h1>Date de livraison</h1>
+					<section id="delivery-date">
+						<h1 data-i18n="title">Date de livraison</h1>
 						<div class="fragment preload fade-in-then-semi-out">
-							<h3 style="margin-bottom: 0">1er novembre 2020</h3>
-							<h6 style="margin-bottom: 2%; color: #268bd2">signature du contrat initial</h6>
+							<h3 style="margin-bottom: 0" data-i18n="date-1">1er novembre 2020</h3>
+							<h6 style="margin-bottom: 2%; color: #268bd2" data-i18n="date-1-label">signature du contrat initial</h6>
 						</div>
-						<h3 class="fragment fade-in-then-semi-out">1er janvier 2021</h3>
+						<h3 class="fragment fade-in-then-semi-out" data-i18n="date-2">1er janvier 2021</h3>
 						<div class="fragment fade-in-then-semi-out">
-							<h3 style="margin-bottom: 0">31 mai 2021</h3>
-							<h6 style="margin-bottom: 2%; color: #268bd2">signature d'un nouveau contrat</h6>
+							<h3 style="margin-bottom: 0" data-i18n="date-3">31 mai 2021</h3>
+							<h6 style="margin-bottom: 2%; color: #268bd2" data-i18n="date-3-label">signature d'un nouveau contrat</h6>
 						</div>
-						<h3 class="fragment fade-in-then-semi-out">fin juillet</h3>
-						<h3 class="fragment fade-in-then-semi-out">1er septembre</h3>
+						<h3 class="fragment fade-in-then-semi-out" data-i18n="date-4">fin juillet</h3>
+						<h3 class="fragment fade-in-then-semi-out" data-i18n="date-5">1er septembre</h3>
 						<div class="fragment">
-							<h3 style="margin-bottom: 0">30 septembre 2021</h3>
-							<h6 style="margin-bottom: 2%; color: #dc322f">11 mois après la date initiale</h6>
+							<h3 style="margin-bottom: 0" data-i18n="date-6">30 septembre 2021</h3>
+							<h6 style="margin-bottom: 2%; color: #dc322f" data-i18n="date-6-label">11 mois après la date initiale</h6>
 						</div>
 					</section>
-					<section data-background="assets/do-background.jpeg">
-						<h4 class="fragment fade-in-then-semi-out" style="color: #000000; position: fixed; top: 60%; left: 20%">Merci à mon chéri</h4>
-						<h4 class="fragment fade-in-then-semi-out" style="color: #000000; position: fixed; top: 70%; left: 35%">Merci à ma mère</h4>
-						<h4 class="fragment fade-in-then-semi-out" style="color: #000000; position: fixed; top: 80%; left: 50%">Merci à mon chat</h4>
+					<section data-background="assets/do-background.jpeg" id="special-thanks">
+						<h4 class="fragment fade-in-then-semi-out" style="color: #000000; position: fixed; top: 60%; left: 20%" data-i18n="1">Merci à mon chéri</h4>
+						<h4 class="fragment fade-in-then-semi-out" style="color: #000000; position: fixed; top: 70%; left: 35%" data-i18n="2">Merci à ma mère</h4>
+						<h4 class="fragment fade-in-then-semi-out" style="color: #000000; position: fixed; top: 80%; left: 50%" data-i18n="3">Merci à mon chat</h4>
 					</section>
-					<section>
-						<h1 class="fragment highlight-green">21 septembre 2021</h1>
+					<section id="final-date">
+						<h1 class="fragment highlight-green" data-i18n="value">21 septembre 2021</h1>
 						<img class="fragment fade-in-then-out" src="https://acegif.com/wp-content/uploads/funny-celebrate-8.gif" alt="success-confetti"/>
 						<h1 class="fragment">🖐️</h1>
 					</section>
 				</section>
 				<!-- Étape 4 : Relecture et autres échanges -->
-				<section>
-					<section data-background="assets/noting-background.jpeg">
-						<h1 class="shadow-title">Relecture<br>et<br>échanges</h1>
+				<section id="fourth-step">
+					<section data-background="assets/noting-background.jpeg" id="fourth-step-title">
+						<h1 class="shadow-title" data-i18n="title">Relecture<br>et<br>échanges</h1>
 					</section>
-					<section>
-						<h1>Éléments d'annonce</h1>
+					<section id="components">
+						<h1 data-i18n="title">Éléments d'annonce</h1>
 						<div class="enumeration">
-							<p>📕 Titre</p>
-							<p>📝 Résumé</p>
-							<p>📘 1ère de couverture</p>
-							<p>📙 Tranche</p>
-							<p>📗 4ème de couverture</p>
-							<p>👩 Biographie</p>
+                            <p>📕 <span data-i18n="title">Titre</span></p>
+                            <p>📝 <span data-i18n="summary">Résumé</span></p>
+                            <p>📘 <span data-i18n="cover-page">1ère de couverture</span></p>
+                            <p>📙 <span data-i18n="spine">Tranche</span></p>
+                            <p>📗 <span data-i18n="back-cover">4ème de couverture</span></p>
+                            <p>👩 <span data-i18n="bio">Biographie</span></p>
 						</div>
 					</section>
-					<section>
-						<h1>Début de publicité</h1>
+					<section id="advertisement">
+						<h1 data-i18n="title">Début de publicité</h1>
 						<div class="enumeration">
-							<p>🔗 Page du livre sur le site d'ENI</p>
-							<p class="fragment fade-right">✉️ Post sur les réseaux sociaux</p>
+                            <p>🔗 <span data-i18n="eni">Page du livre sur le site d'ENI</span></p>
+                            <p class="fragment fade-right">✉️ <span data-i18n="social">Post sur les réseaux sociaux</span></p>
 							<div class="fragment">
 								<a href="https://twitter.com/cardin_agnes"><img class="social" src="assets/twitter-logo.png" alt="twitter-link"/></a>
 								<a href="https://www.linkedin.com/in/agnes-cardin/"><img class="social" src="assets/linkedin-logo.png" alt="linkedin-link"/></a>
 								<img class="social" src="assets/slack-icon.png" alt="slack-link"/>
 								<img class="social" src="assets/facebook-icon.png" alt="facebook-link"/>
 							</div>
-							<p class="fragment fade-right">👨‍🎓 Rassemblement d'experts</p>
+                            <p class="fragment fade-right">👨‍🎓 <span data-i18n="experts">Rassemblement d'experts</span></p>
 							<div class="fragment">
 								<a href="https://www.linkedin.com/in/s%C3%A9bastian-le-merdy-2a00264/"><img class="social" src="https://avatars.githubusercontent.com/u/567637?v=4" alt="sebastian-le-merdy-github"/></a>
 								<a href="https://www.linkedin.com/in/martin-le-reste-bb43b464/"><img class="social" src="data:image/jpeg;base64,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" alt="sebastian-le-merdy-linkedin"/></a>
@@ -347,16 +392,16 @@
 							</div>
 						</div>
 					</section>
-					<section data-background="assets/relecture-background.jpeg">
-						<h1 class="shadow-title">Relectures</h1>
-						<h5 class="shadow-title fragment fade-in-then-semi-out" data-fragment-index="1" style="margin: 0">9 décembre 2021</h5>
+					<section data-background="assets/relecture-background.jpeg" id="proofreading">
+						<h1 class="shadow-title" data-i18n="title">Relectures</h1>
+						<h5 class="shadow-title fragment fade-in-then-semi-out" data-fragment-index="1" style="margin: 0" data-i18n="1">9 décembre 2021</h5>
 						<h5 class="fragment fade-in-then-semi-out" data-fragment-index="2" style="margin: 0; color: red">&#8595;</h5>
-						<h4 class="shadow-title fragment fade-in-then-semi-out" data-fragment-index="2" style="margin: 0">16 décembre 2021</h4>
+						<h4 class="shadow-title fragment fade-in-then-semi-out" data-fragment-index="2" style="margin: 0" data-i18n="2">16 décembre 2021</h4>
 						<h5 class="fragment" data-fragment-index="3" style="margin: 0; color: red">&#8595;</h5>
-						<h3 class="shadow-title fragment" data-fragment-index="3" style="margin: 0;">28 décembre 2021</h3>
+						<h3 class="shadow-title fragment" data-fragment-index="3" style="margin: 0;" data-i18n="3">28 décembre 2021</h3>
 					</section>
-					<section style="height: 100%">
-						<h1>Entrées d'index</h1>
+					<section style="height: 100%" id="index-entries">
+						<h1 data-i18n="title">Entrées d'index</h1>
 						<div class="fragment" style="margin: auto; width: 60%; height: 65%; padding: 5%; border-radius: 20px; font-size: 80%; background-color: white; color: #444">
 							<div style="text-align: left; float: left; width: 50%; font-weight: bold">
 								<p>Variables</p>
@@ -383,12 +428,12 @@
 					</section>
 				</section>
 				<!-- Étape 5 : Sortie du livre -->
-				<section>
-					<section data-background="assets/book-background.jpeg">
-						<h1 class="shadow-title">Sortie<br>du<br>livre</h1>
+				<section id="fifth-step">
+					<section data-background="assets/book-background.jpeg" id="fifth-step-title">
+						<h1 class="shadow-title" data-i18n="title">Sortie<br>du<br>livre</h1>
 					</section>
-					<section style="height: 100vh">
-						<h1>Les exemplaires experts</h1>
+					<section style="height: 100vh" id="experts">
+						<h1 data-i18n="title">Les exemplaires experts</h1>
 						<div style="display: flex; flex-direction: row; justify-content: space-around; height: 100%">
 							<blockquote class="twitter-tweet" style="height: 100%">
 								<p lang="fr" dir="ltr">J&#39;ai reçu mes exemplaires de mon livre, joie \o/ Merci encore <a href="https://twitter.com/EditionsENI?ref_src=twsrc%5Etfw">@EditionsENI</a> pour cette opportunité ! <a href="https://t.co/S0ibjQi9SI">pic.twitter.com/S0ibjQi9SI</a></p>&mdash; Cardin Agnès (@agnes_cardin) <a href="https://twitter.com/agnes_cardin/status/1484246193546928129?ref_src=twsrc%5Etfw">January 20, 2022</a>
@@ -401,26 +446,26 @@
 							</blockquote>
 						</div>
 					</section>
-					<section style="margin: 0">
+					<section style="margin: 0" id="shop">
 						<div style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center">
-							<h4>Disponible à la Fnac<br>et<br>dans toutes les grandes librairies</h4>
+							<h4 data-i18n="fnac">Disponible à la Fnac<br>et<br>dans toutes les grandes librairies</h4>
 							<img style="max-height: 90vh;" src="assets/livre-scala-fnac.jpeg" alt="livre-scala-fnac">
 						</div>
 					</section>
 				</section>
 				<section>
-					<section style="height: 80%" data-background="assets/watch-background.jpeg">
-						<h1 class="shadow-title">Et maintenant ?</h1>
+					<section style="height: 80%" data-background="assets/watch-background.jpeg" id="next">
+						<h1 class="shadow-title" data-i18n="title">Et maintenant ?</h1>
 					</section>
-					<section style="height: 100%;">
-						<h1>Comment ça se vend ?</h1>
+					<section style="height: 100%;" id="sales">
+						<h1 data-i18n="title">Comment ça se vend ?</h1>
 						<img class="fragment" src="assets/stats.png" alt="stats">
-						<h3 class="fragment">167 livres vendus - 1 en dématérialisé</h3>
-						<h3 class="fragment">... 13€ en 2023/2024</h3>
+						<h3 class="fragment" data-i18n="total">167 livres vendus - 1 en dématérialisé</h3>
+						<h3 class="fragment" data-i18n="money">... 13€ en 2023/2024</h3>
 					</section>
 				</section>
-				<section class="thanks" data-background="assets/plume.jpg">
-					<h1 class="shadow-title">Merci <3</h1>
+				<section class="thanks" data-background="assets/plume.jpg" id="end">
+					<h1 class="shadow-title" data-i18n="thanks">Merci <3</h1>
 					<!-- GENERAL IMAGE
 					    <img style="width: 55%" src="assets/thank-you-background.jpeg" alt="thank-you-letter"/>
 					-->
@@ -432,18 +477,35 @@
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/internation/internation.js"></script>
 		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<script type="text/javascript" src="dist/reveal.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				history: true,
 				width: '100%',
 				height: '100%',
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [ RevealMarkdown, RevealHighlight, Internation ],
+				internation: {
+					switchselector: ".langchooser",
+					makejson: true,
+					languages: {
+						en: {
+							name: "English",
+                            dictionary: "lang/en.json"
+						},
+						fr: {
+							name: "Français",
+                            dictionary: "lang/fr.json"
+						}
+					}
+				},
 			});
 
 			// automatically load the initial fragment on a slide if the fragment

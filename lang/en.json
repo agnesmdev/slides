@@ -1,0 +1,215 @@
+{
+    "slides": {
+        "intro": {
+            "title1": "Full and jobless,",
+            "title2": "she decides to write a book about Scala during Covid"
+        },
+        "context-title": {
+            "title": "What do you mean, you wrote a book?"
+        },
+        "global": {
+            "title": "Some context",
+            "end-of-contract-date": "January 15 2020",
+            "end-of-contract-title": "End of my previous job",
+            "eni-order-date": "April 2 2020",
+            "eni-order-title": "ENI proposal",
+            "book-end-date": "September 21 2021",
+            "book-end-title": "End of the book",
+            "book-release-date": "January 14 2022",
+            "book-release-title": "Sale launch"
+        },
+        "why": {
+            "title": "Why?!"
+        },
+        "contract-title": {
+            "title": "ENI Contract"
+        },
+        "offer": {
+            "title": "ENI's proposal"
+        },
+        "trial": {
+            "title": "Writing pilot",
+            "trial-step-1": "Table of content",
+            "trial-step-1-pages": "(2-4 pages)",
+            "trial-step-2": "Test chapter",
+            "trial-step-2-pages": "(10-20 pages)"
+        },
+        "terms": {
+            "title": "Terms",
+            "subject": "Suject",
+            "level": "Level",
+            "level-value": "(Intermediate/Expert)",
+            "date": "Delivery date",
+            "date-value": "(November 2 2020)",
+            "total": "Characters total"
+        },
+        "money": {
+            "title": "Money",
+            "cash": "Payment",
+            "cash-period": "(at delivery then launch)",
+            "royalties": "Royalties",
+            "royalties-period": "(quarterly)",
+            "translation": "Potential translation"
+        },
+        "expectations": {
+            "title": "Expectations",
+            "files": "Word files",
+            "quiz": "End of chapter quizzes",
+            "quiz-value": "(7-10 questions)",
+            "exercises": "Exercises",
+            "indices": "Indices",
+            "snippet": "Code snippets"
+        },
+        "team": {
+            "title": "The editorial team",
+            "assistant": "Editorial assistant",
+            "assistant-name": "Mrs M. and Y.",
+            "chief": "Editorial chief",
+            "chief-name": "Mrs E.",
+            "advisor": "Technical advisor",
+            "advisor-name": "Mr J.",
+            "marketing": "Marketing manager",
+            "marketing-name": "Mrs K."
+        },
+        "characters-title": {
+            "title": "How much is 400 000 characters?"
+        },
+        "lipsum": {
+            "words": "103 words",
+            "characters": "693 characters"
+        },
+        "lipsum-5": {
+            "words": "584 words",
+            "characters": "4031 characters"
+        },
+        "page": {
+            "words": "232 words",
+            "characters": "1467 characters"
+        },
+        "first-step-title": {
+            "title": "Maximum<br>determination"
+        },
+        "daily": {
+            "daily": "Daily organization",
+            "writing": "All day long writing",
+            "report": "Report to the assistant",
+            "report-value": "(every 2 weeks)",
+            "search": "Contract research",
+            "search-value": "(freelance attempt)",
+            "networking": "Networking"
+        },
+        "plan": {
+            "title": "Plan",
+            "step-1": "1 - Introduction",
+            "step-2": "2 - Language bases",
+            "step-3": "3 - Functional programming",
+            "step-4": "4 - sbt",
+            "example": "️Some code example",
+            "cheat-sheet": "Cheat-sheet",
+            "success": "Chapters 2 &amp; 3 done<br>in 2 months!"
+        },
+        "ceiling": {
+            "title": "100 000 characters",
+            "half-content": "50 % of expected content",
+            "quarter-total": "characters remaining"
+        },
+        "thanks": {
+            "advisor": "(Technical advisor)",
+            "advisor-name": "Mr J."
+        },
+        "more-explaining": {
+            "title": "Explain more some concepts"
+        },
+        "more-examples": {
+            "title": "Illustrate statements with examples<br>multiple cases"
+        },
+        "more-repeats": {
+            "title": "Do not hesitate to make reminders"
+        },
+        "more-whitespace": {
+            "title": "Extra whitespaces are taken into account",
+            "without": "198 excluding whitespaces",
+            "with": "237 including whitespaces"
+        },
+        "pain": {
+            "1": "Is it worth it?",
+            "2": "My writing sucks",
+            "3": "I don't see the end",
+            "4": "Either way, nobody will like it",
+            "5": "Who am I to talk about it?"
+        },
+        "from": {
+            "full": "Full of confidence",
+            "impostor": "Impostor syndrome"
+        },
+        "third-title": {
+            "title": "Delays"
+        },
+        "delivery-date": {
+            "title": "Delivery dates",
+            "date-1": "November 1st 2020",
+            "date-1-label": "initial contract sign",
+            "date-2": "January 1st 2021",
+            "date-3": "Mai 31 2021",
+            "date-3-label": "new contract signed",
+            "date-4": "late July",
+            "date-5": "September 1st",
+            "date-6": "September 30 2021",
+            "date-6-label": "11 months after the initial date"
+        },
+        "special-thanks": {
+            "1": "Thanks to my boyfriend",
+            "2": "Thanks to my mother",
+            "3": "Thanks to my cat"
+        },
+        "final-date": {
+            "value": "September 21 2021"
+        },
+        "fourth-step-title": {
+            "title": "Proofreading<br>and<br>ping-pong"
+        },
+        "components": {
+            "title": "Title",
+            "summary": "Summary",
+            "cover-page": "Cover page",
+            "spine": "Spine",
+            "back-cover": "Back cover",
+            "bio": "Bio"
+        },
+        "advertisement": {
+            "title": "Advertisement start!",
+            "eni": "ENI published the link for my book",
+            "social": "Social communications",
+            "experts": "Experts gathering"
+        },
+        "proofreading": {
+            "1": "December 9 2021",
+            "2": "December 16 2021",
+            "3": "December 28 2021",
+            "title": "Proofreading"
+        },
+        "index-entries": {
+            "title": "Index entries"
+        },
+        "fifth-step-title": {
+            "title": "The book<br>is<br>live"
+        },
+        "experts": {
+            "title": "Experts copy"
+        },
+        "shop": {
+            "fnac": "Available at Fnac<br>and<br>every good libraries"
+        },
+        "sales": {
+            "title": "How much books were sold?",
+            "total": "167 physical copies - 1 digital",
+            "money": "... 13€ in 2023/2024"
+        },
+        "end": {
+            "thanks": "Thanks &lt;3"
+        },
+        "next": {
+            "title": "What's next?"
+        }
+    }
+}
