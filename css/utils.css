@@ -1,0 +1,54 @@
+.reveal ul {
+  list-style: none;
+  margin: unset;
+}
+.reveal ul ul {
+  list-style: none;
+}
+.reveal li {
+  padding: 10px 0;
+}
+.reveal li li {
+  padding: 5px 0;
+}
+.reveal svg {
+  margin: 20px 0;
+}
+
+.full-section {
+  height: 90vh;
+}
+.photo-section h1,h2,h3,h4,h5 {
+  text-shadow: 0 0 10px #222 !important;
+}
+.shadow-title {
+  text-shadow: 0 0 10px #222 !important;
+}
+.fragment.blur {
+  filter: none;
+}
+.fragment.blur.visible {
+  filter: blur(5px);
+}
+.italic {
+  font-style: italic;
+}
+.image-round img {
+  width: 150px;
+  border-radius: 50%;
+}
+.image-round:not(:last-child) {
+  margin-right: 25px;
+}
+.small-h1 {
+  font-size: 100px !important;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flex-column:not(:last-child) {
+  margin-right: 50px;
+}
