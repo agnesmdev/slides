@@ -52,3 +52,32 @@
 .flex-column:not(:last-child) {
   margin-right: 50px;
 }
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.grid-container {
+  display: grid;
+  align-items: center;
+  margin: 15px;
+
+  & img {
+    height: 75px;
+  }
+}
+.column-5 {
+  grid-template-columns: repeat(5, auto);
+}
+.column-2 {
+  grid-template-columns: repeat(2, auto);
+}
+.code {
+  font-family: monospace;
+  font-size: 25px;
+  padding: 5px;
+  background-color: var(--r-link-color-hover);
+  color: var(--r-link-color-dark);
+  border-radius: 4px;
+}
